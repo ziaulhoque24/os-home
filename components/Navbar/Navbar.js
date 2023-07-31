@@ -16,7 +16,7 @@ export default function Navbar() {
               alt='omega-solution'
             />
           </div>
-          <div>
+          <div className='hidden md:block'>
             <NavMenu />
           </div>
         </div>

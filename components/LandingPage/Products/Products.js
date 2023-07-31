@@ -10,7 +10,7 @@ export default function Products() {
   return (
     <>
       <div className='container'>
-        <div className='flex justify-between px-5'>
+        <div className='flex justify-between px-5 my-5'>
           <span className='font-bold text-xl'>All Products</span>
           <div className='flex gap-3'>
             <span className=''>
@@ -21,7 +21,7 @@ export default function Products() {
             </span>
           </div>
         </div>
-        <div className='flex justify-between gap-5'>
+        <div className='flex justify-between gap-1 md:gap-5'>
           <ProductCard />
           <ProductCard />
           <ProductCard />

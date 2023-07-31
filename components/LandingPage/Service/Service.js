@@ -13,7 +13,7 @@ export default function Service() {
             </h1>
             <h1 className='text-3xl text-center font-bold'>Our services</h1>
           </div>
-          <div className='flex gap-10 mt-16'>
+          <div className='flex flex-wrap md:flex-nowrap gap-10 mt-16'>
             <ServiceCard />
             <ServiceCard />
             <ServiceCard />

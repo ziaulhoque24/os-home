@@ -19,4 +19,8 @@
         background-size: cover;
         background-position: center;
     }
+
+    .feedback-bg {
+        background: linear-gradient(45deg, #CBEDEE 0%, #F3F2F3 100%);
+    }
 }
