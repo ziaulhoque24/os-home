@@ -1,5 +1,6 @@
 "use client";
-import frame from "@/assets/images/frame.png";
+
+import frame from "@/public/images/frame.png";
 import Image from "next/image";
 
 export default function Hero1() {
