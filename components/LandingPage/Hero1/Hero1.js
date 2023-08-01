@@ -1,4 +1,5 @@
 "use client";
+import img from "@/assets/images/Frame.png";
 import Image from "next/image";
 
 export default function Hero1() {
@@ -19,7 +20,7 @@ export default function Hero1() {
           </div>
           <div className='relative my-8 w-full max-w-[400px] h-[306px] md:h-[382px]'>
             <Image
-              src='/images/frame.png'
+              src={img}
               fill
               className='object-cover'
               alt='omega-solution'
