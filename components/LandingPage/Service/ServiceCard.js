@@ -6,7 +6,7 @@ export default function ServiceCard() {
   return (
     <>
       <div className='bg-white relative h-[500px] rounded-xl'>
-        <div className='absolute w-[290px] h-[290px] rounded-full bg-white -top-10 left-1/2 -translate-x-1/2 z-[1]'></div>
+        <div className='absolute w-[290px] h-[290px] lg:w-[290px] lg:h-[290px] md:w-[200px] md:h-[200px] rounded-full bg-white -top-10 left-1/2 -translate-x-1/2 z-[1]'></div>
         <div className='relative flex flex-col items-center my-10 gap-20 px-5 z-10'>
           <div className='relative w-[150px] min-h-[90px]'>
             <Image

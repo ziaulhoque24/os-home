@@ -7,13 +7,13 @@ export default function Service() {
     <>
       <div className='serviceBg mt-16'>
         <div className='container'>
-          <div className='flex flex-col items-center gap-10 py-16'>
+          <div className='flex flex-col items-center gap-10 md:gap-10 py-16'>
             <h1 className='text-3xl text-center font-bold'>
               We are an AI-Based software company <br /> from Bangladesh
             </h1>
             <h1 className='text-3xl text-center font-bold'>Our services</h1>
           </div>
-          <div className='flex flex-wrap md:flex-nowrap gap-10 mt-16'>
+          <div className='flex flex-col md:flex-row gap-20 mt-16'>
             <ServiceCard />
             <ServiceCard />
             <ServiceCard />
