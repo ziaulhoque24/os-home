@@ -8,11 +8,10 @@ export default function Navbar() {
     <>
       <div className=''>
         <div className='container h-[70px] flex justify-between items-center'>
-          <div className='relative w-[200px] min-h-[30px]'>
+          <div className=''>
             <Image
               src={logo}
-              className='object-cover'
-              fill
+              className='w-[150px] md:w-auto'
               alt='omega-solution'
             />
           </div>

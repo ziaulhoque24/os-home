@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Hero1() {
   return (
     <>
-      <div className='min-h-[550px] heroBg'>
+      <div className='min-h-[520px] heroBg'>
         <div className='container flex md:flex-row flex-col justify-between'>
           <div className='flex flex-col gap-4 w-full md:w-[35%] my-10 md:my-20'>
             <h3 className='font-bold text-base'>SMART SOFTWARE SOLUTION</h3>
@@ -18,7 +18,7 @@ export default function Hero1() {
               our smart software.
             </h4>
           </div>
-          <div className='relative my-8 w-[400px] h-[340px]'>
+          <div className='relative my-8 w-full max-w-[400px] h-[306px] md:h-[382px]'>
             <Image
               src={frame}
               fill

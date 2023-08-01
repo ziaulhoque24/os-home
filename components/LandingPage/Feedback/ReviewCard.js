@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ReviewCard() {
   return (
     <>
-      <div className='bg-white flex justify-between items-center p-5 gap-5 rounded-lg drop-shadow-md'>
+      <div className='bg-white flex flex-col md:flex-row justify-between items-center p-5 gap-5 rounded-lg drop-shadow-md'>
         <div className=''>
           <Image
             width={86}

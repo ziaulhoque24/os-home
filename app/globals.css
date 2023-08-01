@@ -23,4 +23,18 @@
     .feedback-bg {
         background: linear-gradient(45deg, #CBEDEE 0%, #F3F2F3 100%);
     }
+
 }
+
+.mySwiper {
+    padding-bottom: 42px !important;
+}
+
+.feedbackSlider {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+/* .feedbackSlider .swiper-pagination {
+    bottom: -20px !important;
+} */
