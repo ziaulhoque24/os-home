@@ -7,7 +7,7 @@ export default function Hero1() {
     <>
       <div className='min-h-[520px] heroBg'>
         <div className='container flex md:flex-row flex-col justify-between'>
-          <div className='flex flex-col gap-4 w-full md:w-[35%] my-10 md:my-20'>
+          <div className='flex flex-col gap-4 w-full md:w-[35%] mt-5 md:my-20'>
             <h3 className='font-bold text-base'>SMART SOFTWARE SOLUTION</h3>
             <h1 className='font-extrabold text-5xl text-primary'>
               We deliver growth for your business
