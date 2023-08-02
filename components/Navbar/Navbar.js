@@ -13,7 +13,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className=''>
+      <div className='sticky top-0 bg-white/95 z-20'>
         <div className='container h-[70px] flex justify-between items-center'>
           <div className=''>
             <Image
