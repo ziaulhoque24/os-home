@@ -4,7 +4,7 @@ export default function ProductCard() {
   return (
     <>
       <div className='w-auto md:w-[350px] md:h-[500px] bg-white drop-shadow-lg rounded-lg'>
-        <div className='bg-orange-300/20 flex flex-col items-center gap-5 py-10 rounded-t-lg'>
+        <div className=' flex flex-col items-center gap-5 py-10 rounded-t-lg'>
           <h1 className='text-xl font-bold'>CRM</h1>
           <div className='text-center'>
             <span>One time payment</span>

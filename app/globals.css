@@ -4,12 +4,15 @@
 
 @layer components {
     .heroBg {
-        background-image: linear-gradient(250deg, rgba(255, 214, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%),
-            linear-gradient(182deg, #BAEEFF 0%, rgba(255, 255, 255, 0.00) 100%);
+        /* background-image: linear-gradient(250deg, rgba(255, 214, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%),
+            linear-gradient(182deg, #BAEEFF 0%, rgba(255, 255, 255, 0.00) 100%); */
+        background-image: url("../assets/images/netbackground.svg");
+
     }
 
     .featureBg {
-        background-image: linear-gradient(153deg, rgba(255, 255, 255, 0.00) 0%, #E3EEFF 99.00%, #E3EEFF 100%);
+        background-image: url("../assets/images/netbackground.svg");
+        background-repeat: repeat;
 
     }
 
@@ -38,3 +41,63 @@
 /* .feedbackSlider .swiper-pagination {
     bottom: -20px !important;
 } */
+
+.featureProductContainer {
+    --d: 6px;
+    /* folded part */
+    --c: #cff8ff;
+    /* color */
+    --f: 16px;
+    /* ribbon font-size */
+    position: relative;
+
+}
+
+.featureProductContainer::before {
+    content: attr(data-ribbon);
+    position: absolute;
+    font-size: var(--f);
+    top: 0;
+    right: 0;
+    transform: translate(29.29%, -100%) rotate(45deg);
+    color: green;
+    text-align: center;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    transform-origin: bottom left;
+    padding: 5px 35px calc(var(--d) + 5px);
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0 0) bottom/100% var(--d) no-repeat var(--c);
+    background-clip: padding-box;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)), 0 100%);
+    -webkit-mask: linear-gradient(135deg, transparent calc(50% - var(--d) * 0.707), #fff 0) bottom left,
+        linear-gradient(-135deg, transparent calc(50% - var(--d) * 0.707), #fff 0)bottom right;
+    -webkit-mask-size: 300vmax 300vmax;
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+}
+
+.left::before {
+    left: 0;
+    right: auto;
+    transform: translate(-29.29%, -100%) rotate(-45deg);
+    transform-origin: bottom right;
+}
+
+@keyframes textanim {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.animate-text {
+    background-image: linear-gradient(-225deg, #29a186 0%, #1aa384 29%, #47bdff 67%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textanim 5s linear infinite;
+}

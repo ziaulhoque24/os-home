@@ -17,7 +17,7 @@ export default function Feedback() {
       <div className='feedback-bg my-10'>
         <div className='container py-6'>
           <div className=' flex flex-col items-center gap-3'>
-            <h1 className='text-3xl font-bold text-center'>
+            <h1 className='text-3xl font-bold text-center animate-text'>
               Our Customer&apos;s Feedback
             </h1>
             <p className='text-center'>
