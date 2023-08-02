@@ -29,7 +29,7 @@ export default function ClientCountry() {
         <div className='relative'>
           <Swiper
             grabCursor={true}
-            slidesPerView={2}
+            slidesPerView={3}
             centeredSlides={false}
             pagination={false}
             spaceBetween={30}
@@ -56,19 +56,44 @@ export default function ClientCountry() {
             className='mySwiper'
           >
             <SwiperSlide>
-              <Image src={country1} alt='omega-solution' />
+              <Image
+                width={150}
+                height={58}
+                src={country1}
+                alt='omega-solution'
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={country2} alt='omega-solution' />
+              <Image
+                width={150}
+                height={58}
+                src={country2}
+                alt='omega-solution'
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={country3} alt='omega-solution' />
+              <Image
+                width={150}
+                height={58}
+                src={country3}
+                alt='omega-solution'
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={country4} alt='omega-solution' />
+              <Image
+                width={150}
+                height={58}
+                src={country4}
+                alt='omega-solution'
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <Image src={country2} alt='omega-solution' />
+              <Image
+                width={150}
+                height={58}
+                src={country2}
+                alt='omega-solution'
+              />
             </SwiperSlide>
           </Swiper>
         </div>

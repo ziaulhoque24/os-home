@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <div className='border-t'>
         <div className='container pt-10'>
-          <div className='flex flex-col md:flex-row justify-between'>
+          <div className='flex flex-col md:flex-row justify-between gap-5'>
             <div className='flex flex-col gap-3'>
               <div className='relative w-[200px] min-h-[30px]'>
                 <Image

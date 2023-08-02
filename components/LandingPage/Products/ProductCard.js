@@ -15,7 +15,7 @@ export default function ProductCard() {
             Get Started
           </button>
         </div>
-        <ul className='hidden md:block px-10 py-5 list-disc'>
+        <ul className='px-10 py-5 list-disc'>
           <li>100 subscribers</li>
           <li>100 subscribers</li>
           <li>100 subscribers</li>

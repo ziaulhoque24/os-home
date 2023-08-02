@@ -15,13 +15,13 @@ export default function Products() {
     <>
       <div className='container'>
         <div className='flex justify-between px-5 my-5'>
-          <span className='font-bold text-xl'>All Products</span>
+          <span className='font-bold text-xl animate-text'>All Products</span>
           <div className='flex gap-3'>
             <span className='custom-prev-button'>
-              <MdKeyboardArrowLeft className='text-5xl bg-gray-400/70 rounded-full' />
+              <MdKeyboardArrowLeft className='md:text-5xl text-3xl bg-gray-400/30 rounded-full text-primary' />
             </span>
             <span className='custom-next-button'>
-              <MdKeyboardArrowRight className='text-5xl bg-gray-400/70 rounded-full' />
+              <MdKeyboardArrowRight className='md:text-5xl text-3xl bg-gray-400/30 rounded-full text-primary' />
             </span>
           </div>
         </div>
