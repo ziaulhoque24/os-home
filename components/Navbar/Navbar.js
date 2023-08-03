@@ -1,6 +1,7 @@
 "use client";
 import { GoThreeBars } from "@/assets/icons/icons";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import logo from "../../assets/images/os-logo.png";
 import MobileMenu from "./MobileMenu";
@@ -15,13 +16,13 @@ export default function Navbar() {
     <>
       <div className='sticky top-0 bg-white/95 z-20'>
         <div className='container h-[70px] flex justify-between items-center'>
-          <div className=''>
+          <Link className='' href='/'>
             <Image
               src={logo}
               className='w-[150px] md:w-auto'
               alt='omega-solution'
             />
-          </div>
+          </Link>
           <div className='hidden md:block'>
             <NavMenu />
           </div>

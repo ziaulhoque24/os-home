@@ -9,7 +9,7 @@ import ServiceCard from "./ServiceCard";
 export default function Service() {
   return (
     <>
-      <div className='serviceBg mt-16'>
+      <div className='serviceBg mt-16' id="services">
         <div className='container'>
           <div className='flex flex-col items-center gap-10 py-16'>
             <h1 className='text-3xl text-center font-bold'>

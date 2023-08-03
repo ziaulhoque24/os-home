@@ -13,7 +13,7 @@ import ProductCard from "./ProductCard";
 export default function Products() {
   return (
     <>
-      <div className='container'>
+      <div className='container' id="products">
         <div className='flex justify-between px-5 my-5'>
           <span className='font-bold text-xl animate-text'>All Products</span>
           <div className='flex gap-3'>

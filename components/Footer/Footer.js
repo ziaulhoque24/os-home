@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import express from "../../assets/images/omegaExpress.png";
 import prime from "../../assets/images/omegaPrime.png";
 import logo from "../../assets/images/os-logo.png";
@@ -65,7 +66,9 @@ export default function Footer() {
               <ul>
                 <li className='text-lg font-semibold text-primary'>Helps</li>
                 <li>FAQ</li>
-                <li>Contacts</li>
+                <li>
+                  <Link href={"/contact"}>Contacts</Link>
+                </li>
               </ul>
             </div>
           </div>

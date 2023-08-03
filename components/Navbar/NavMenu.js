@@ -6,23 +6,27 @@ import Link from "next/link";
 export default function NavMenu() {
   return (
     <>
-      <div className='flex justify-between gap-3'>
-        <Link className='px-2 py-1 hover:bg-slate-500/60 rounded' href='/'>
+      <div className='flex justify-between gap-5'>
+        <Link
+          target='_blank'
+          className=' hover:text-primary/60 rounded'
+          href='https://osdocs.vercel.app'
+        >
           Doc
         </Link>
-        <Link className='px-2 py-1 hover:bg-slate-500/60 rounded' href='/'>
+        <Link className='hover:text-primary/60 rounded' href='/#products'>
           Products
         </Link>
-        <Link className='px-2 py-1 hover:bg-slate-500/60 rounded' href='/'>
+        <Link className='hover:text-primary/60 rounded' href='/#services'>
           Services
         </Link>
-        <Link className='px-2 py-1 hover:bg-slate-500/60 rounded' href='/'>
+        <Link className='hover:text-primary/60 rounded' href='/contact'>
           Contact
         </Link>
-        <Link className='px-2 py-1 hover:bg-slate-500/60 rounded' href='/'>
+        <Link className='hover:text-primary/60 rounded' href='/'>
           Support
         </Link>
-        <button className='px-2 py-1 hover:bg-slate-500/60 rounded'>
+        <button className='rounded'>
           <GiMoon className='text-3xl' />
         </button>
       </div>
