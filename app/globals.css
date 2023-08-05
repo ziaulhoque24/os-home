@@ -39,6 +39,11 @@
 
     }
 
+    .counterBg {
+        background-image: linear-gradient(to right top, #CBEDEE, #F3F2F3);
+    }
+
+
 }
 
 .swiper {

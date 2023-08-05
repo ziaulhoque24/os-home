@@ -2,6 +2,7 @@
 
 import Address from "./Address";
 import ContactForm from "./ContactForm";
+import FaqSec from "./FaqSec";
 
 export default function Contact() {
   return (
@@ -22,19 +23,22 @@ export default function Contact() {
       <div className='ContactFormBg'>
         <div className='container flex flex-col md:flex-row gap-5 mt-10 py-10'>
           <ContactForm />
-          <div className='md:w-1/2'>
+          <div className='md:w-1/2 '>
             <h1 className='animate-text text-xl font-medium text-center'>
               Find us on Map
             </h1>
             <iframe
               src='https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d14600.931806534794!2d90.399313!3d23.810314!3m2!1i1024!2i768!4f13.1!2m1!1sOmega%20Express!5e0!3m2!1sen!2sus!4v1691066666855!5m2!1sen!2sus'
-              className='w-full aspect-video mt-5 rounded-lg'
+              className='w-full mt-5 rounded-lg md:h-[calc(100%-40px)]'
               allowfullscreen=''
               loading='lazy'
               referrerpolicy='no-referrer-when-downgrade'
             ></iframe>
           </div>
         </div>
+      </div>
+      <div className='container' id='faq'>
+        <FaqSec />
       </div>
     </>
   );

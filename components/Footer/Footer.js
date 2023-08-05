@@ -57,7 +57,9 @@ export default function Footer() {
             <div>
               <ul>
                 <li className='text-lg font-semibold text-primary'>Company</li>
-                <li>About us</li>
+                <li>
+                  <Link href={"/about"}>About us</Link>
+                </li>
                 <li>Privacy policy</li>
                 <li>Terms of us</li>
               </ul>
@@ -65,7 +67,9 @@ export default function Footer() {
             <div>
               <ul>
                 <li className='text-lg font-semibold text-primary'>Helps</li>
-                <li>FAQ</li>
+                <li>
+                  <Link href={"/contact#faq"}>FAQ</Link>
+                </li>
                 <li>
                   <Link href={"/contact"}>Contacts</Link>
                 </li>
