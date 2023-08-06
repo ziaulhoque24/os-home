@@ -49,7 +49,9 @@ export default function Footer() {
               <ul>
                 <li className='text-lg font-semibold text-primary'>Products</li>
                 <li>CRM</li>
-                <li>HRM</li>
+                <li>
+                  <Link href={"/product/hrm-os"}>HRM</Link>
+                </li>
                 <li>ERP</li>
                 <li>POS</li>
               </ul>
