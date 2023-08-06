@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function HRM() {
   return (
     <>
@@ -33,9 +35,9 @@ export default function HRM() {
                         viewBox='0 0 24 24'
                         fill='none'
                         stroke='currentColor'
-                        stroke-width='2'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
+                        strokeWidth='2'
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
                       >
                         <line x1='5' y1='12' x2='19' y2='12'></line>
                         <polyline points='12 5 19 12 12 19'></polyline>
@@ -52,9 +54,11 @@ export default function HRM() {
               </div>
               <div className='w-full md:w-1/2'>
                 <div className='w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl'>
-                  <img
-                    src='https://i.ibb.co/cNfg9Y7/MOKEUPHRMOS.png" alt="MOKEUPHRMOS'
-                    alt='HRM-OS best HRM '
+                  <Image
+                    src={"https://i.ibb.co/cNfg9Y7/MOKEUPHRMOS.png"}
+                    alt='best hrm os'
+                    width={588}
+                    height={374}
                   />
                 </div>
               </div>
@@ -65,10 +69,12 @@ export default function HRM() {
         <section className='w-full bg-white pt-7 pb-7 md:pt-20 md:pb-24'>
           <div className='box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16'>
             <div className='box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10'>
-              <img
+              <Image
                 src='https://i.ibb.co/k8VmY84/Humaaans-3-Characters.png'
                 className='p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 '
                 alt='team'
+                width={400}
+                height={301}
               />
             </div>
 
@@ -133,10 +139,12 @@ export default function HRM() {
             </div>
 
             <div className='box-border relative w-full max-w-md px-4 mt-10 mb-4 text-center bg-no-repeat bg-contain border-solid md:mt-0 md:max-w-none lg:mb-0 md:w-1/2'>
-              <img
+              <Image
                 src='https://i.ibb.co/7CHnkNS/undraw-Chat-bot-re-e2gj.png'
                 className='pl-4 sm:pr-10 xl:pl-10 lg:pr-32'
                 alt='ai'
+                width={1109}
+                height={635}
               />
             </div>
           </div>
@@ -164,9 +172,9 @@ export default function HRM() {
                         xmlns='http://www.w3.org/2000/svg'
                       >
                         <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth='2'
                           d='M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z'
                         ></path>
                       </svg>
@@ -183,9 +191,9 @@ export default function HRM() {
                         xmlns='http://www.w3.org/2000/svg'
                       >
                         <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth='2'
                           d='M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4'
                         ></path>
                       </svg>
@@ -202,9 +210,9 @@ export default function HRM() {
                         xmlns='http://www.w3.org/2000/svg'
                       >
                         <path
-                          stroke-linecap='round'
-                          stroke-linejoin='round'
-                          stroke-width='2'
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth='2'
                           d='M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z'
                         ></path>
                       </svg>
@@ -216,10 +224,12 @@ export default function HRM() {
                 </div>
               </div>
               <div className='w-full px-3 mb-12 lg:w-1/2 order-0 lg:order-1 lg:mb-0'>
-                <img
+                <Image
                   className='mx-auto sm:max-w-sm lg:max-w-full'
                   src='https://i.ibb.co/7Rkm1T8/undraw-Join-re-w1lh.png'
                   alt='feature'
+                  width={752}
+                  height={692}
                 />
               </div>
             </div>
@@ -250,9 +260,12 @@ export default function HRM() {
                 <div className='flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0'>
                   <div className='flex items-center justify-center'>
                     <div className='w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full'>
-                      <img
+                      <Image
                         src='https://images.freeimages.com/images/large-previews/962/avatar-man-with-mustages-1632966.jpg'
+                        alt='feature'
                         className='object-cover w-full h-full'
+                        width={1200}
+                        height={1200}
                       />
                     </div>
                     <div className='flex flex-col items-start justify-center'>
@@ -269,9 +282,12 @@ export default function HRM() {
                 <div className='flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200'>
                   <div className='flex items-center justify-center'>
                     <div className='w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full'>
-                      <img
+                      <Image
                         src='https://images.freeimages.com/images/large-previews/023/geek-avatar-1632962.jpg'
+                        alt='feature2'
                         className='object-cover w-full h-full'
+                        width={1200}
+                        height={1200}
                       />
                     </div>
                     <div className='flex flex-col items-start justify-center'>
@@ -290,10 +306,12 @@ export default function HRM() {
                 <div className='flex flex-col items-start justify-start w-full h-auto lg:w-1/3'>
                   <div className='flex items-center justify-center'>
                     <div className='w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full'>
-                      <img
+                      <Image
                         src='https://images.freeimages.com/images/large-previews/7e8/man-avatar-1632965.jpg'
                         className='object-cover w-full h-full'
                         alt='img'
+                        width={1200}
+                        height={1200}
                       />
                     </div>
                     <div className='flex flex-col items-start justify-center'>
