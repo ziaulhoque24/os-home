@@ -17,10 +17,16 @@
     }
 
     .serviceBg {
-        background-image: url("../assets/images/Rectangle\ 7.png");
+        background-image: url("../assets/images/servicebg.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        backdrop-filter: blur(20px);
+    }
+
+    .serviceSecondBg {
+        background: linear-gradient(45deg, rgba(203, 237, 238, 0.60) 0%, #F3F2F3 100%);
+
     }
 
     .feedback-bg {

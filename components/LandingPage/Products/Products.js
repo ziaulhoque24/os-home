@@ -13,7 +13,7 @@ import ProductCard from "./ProductCard";
 export default function Products() {
   return (
     <>
-      <div className='container' id="products">
+      <div className='container' id='products'>
         <div className='flex justify-between px-5 my-5'>
           <span className='font-bold text-xl animate-text'>All Products</span>
           <div className='flex gap-3'>
@@ -60,19 +60,19 @@ export default function Products() {
             className='mySwiper'
           >
             <SwiperSlide>
-              <ProductCard />
+              <ProductCard name='CRM OS' price='99' url='' />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductCard />
+              <ProductCard name='HRM OS' price='99' url='hrm-os' />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductCard />
+              <ProductCard name='ERP OS' price='99' url='' />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductCard />
+              <ProductCard name='POS OS' price='99' url='' />
             </SwiperSlide>
             <SwiperSlide>
-              <ProductCard />
+              <ProductCard name='Inventory' price='99' url='' />
             </SwiperSlide>
           </Swiper>
         </div>
