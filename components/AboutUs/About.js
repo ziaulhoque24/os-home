@@ -30,19 +30,19 @@ export default function About() {
             </p>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5'>
-            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5'>
+            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold'>2018</span>
               <span>Year we were founded</span>
             </div>
-            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5'>
+            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold'>100+</span>
               <span>Monthly active users</span>
             </div>
-            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5'>
+            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold'>20+</span>
               <span>Members in our remote team</span>
             </div>
-            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5'>
+            <div className='flex flex-col gap-2 items-center bg-white rounded-xl drop-shadow-lg p-5 hover:scale-105 duration-500'>
               <span className='text-2xl font-bold'>3+</span>
               <span>Countries using our products</span>
             </div>

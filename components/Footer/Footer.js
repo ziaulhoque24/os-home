@@ -62,8 +62,12 @@ export default function Footer() {
                 <li>
                   <Link href={"/about"}>About us</Link>
                 </li>
-                <li>Privacy policy</li>
-                <li>Terms of us</li>
+                <li>
+                  <Link href={"/privacy-policy"}>Privacy policy</Link>
+                </li>
+                <li>
+                  <Link href={"/terms"}>Terms of us</Link>
+                </li>
               </ul>
             </div>
             <div>
