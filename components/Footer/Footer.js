@@ -10,10 +10,10 @@ import SocialIcons from "./SocialIcons";
 export default function Footer() {
   return (
     <>
-      <div className='border-t'>
-        <div className='container pt-10'>
+      <div className='bg-[#374a5e] border-t py-5'>
+        <div className='container pt-10 text-[#abb4be]'>
           <div className='flex flex-col md:flex-row justify-between gap-5'>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-10'>
               <div className='relative w-[200px] min-h-[30px]'>
                 <Image
                   src={logo}
@@ -82,10 +82,12 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className='flex flex-col md:flex-row md:items-end justify-between  mt-8 mb-2 gap-2'>
-            <copyright>All Rights Reserved OMEGA SOLUTION</copyright>
-            <SocialIcons />
-          </div>
+        </div>
+      </div>
+      <div className='bg-[#2d3e50]'>
+        <div className='container flex flex-col md:flex-row md:items-end justify-between  mt-8 mb-2 gap-2 text-white '>
+          <copyright>All Rights Reserved OMEGA SOLUTION</copyright>
+          <SocialIcons />
         </div>
       </div>
     </>

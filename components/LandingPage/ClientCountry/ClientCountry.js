@@ -14,88 +14,90 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function ClientCountry() {
   return (
     <>
-      <div className='container'>
-        <h1 className='text-3xl text-center font-bold py-20 animate-text'>
-          Our Global Clients
-        </h1>
-        <div className='relative w-full h-[135px] md:h-[290px] lg:h-[381px] xl:h-[463px] 2xl:h-[550px]'>
-          <Image
-            src={countries}
-            className='object-cover'
-            fill
-            alt='omega-solution'
-          />
-        </div>
-        <div className='relative'>
-          <Swiper
-            grabCursor={true}
-            slidesPerView={3}
-            centeredSlides={false}
-            pagination={false}
-            spaceBetween={30}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            breakpoints={{
-              640: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-              },
-              768: {
-                slidesPerView: 3,
-                spaceBetween: 40,
-              },
-              1024: {
-                slidesPerView: 4,
-                spaceBetween: 50,
-              },
-            }}
-            modules={[Autoplay]}
-            navigation={false}
-            className='mySwiper'
-          >
-            <SwiperSlide>
-              <Image
-                width={150}
-                height={58}
-                src={country1}
-                alt='omega-solution'
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                width={150}
-                height={58}
-                src={country2}
-                alt='omega-solution'
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                width={150}
-                height={58}
-                src={country3}
-                alt='omega-solution'
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                width={150}
-                height={58}
-                src={country4}
-                alt='omega-solution'
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Image
-                width={150}
-                height={58}
-                src={country2}
-                alt='omega-solution'
-              />
-            </SwiperSlide>
-          </Swiper>
+      <div className='bg-[#374a5e]'>
+        <div className='container py-20'>
+          <h1 className='text-3xl text-center font-bold animate-text pb-10'>
+            Our Global Clients
+          </h1>
+          <div className='relative w-full h-[135px] md:h-[290px] lg:h-[381px] xl:h-[463px] 2xl:h-[550px]'>
+            <Image
+              src={countries}
+              className='object-cover'
+              fill
+              alt='omega-solution'
+            />
+          </div>
+          <div className='relative'>
+            <Swiper
+              grabCursor={true}
+              slidesPerView={3}
+              centeredSlides={false}
+              pagination={false}
+              spaceBetween={30}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 50,
+                },
+              }}
+              modules={[Autoplay]}
+              navigation={false}
+              className='mySwiper'
+            >
+              <SwiperSlide>
+                <Image
+                  width={150}
+                  height={58}
+                  src={country1}
+                  alt='omega-solution'
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  width={150}
+                  height={58}
+                  src={country2}
+                  alt='omega-solution'
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  width={150}
+                  height={58}
+                  src={country3}
+                  alt='omega-solution'
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  width={150}
+                  height={58}
+                  src={country4}
+                  alt='omega-solution'
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  width={150}
+                  height={58}
+                  src={country2}
+                  alt='omega-solution'
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </>

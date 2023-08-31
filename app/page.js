@@ -7,7 +7,7 @@ export const metadata = {
 };
 export default function Home() {
   return (
-    <div className='mb-20'>
+    <div className=''>
       <LandingPage />
     </div>
   );
