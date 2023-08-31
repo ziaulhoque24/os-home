@@ -15,7 +15,7 @@ export default function ClientCountry() {
   return (
     <>
       <div className='container'>
-        <h1 className='text-3xl text-center font-bold pb-5 animate-text'>
+        <h1 className='text-3xl text-center font-bold py-20 animate-text'>
           Our Global Clients
         </h1>
         <div className='relative w-full h-[135px] md:h-[290px] lg:h-[381px] xl:h-[463px] 2xl:h-[550px]'>

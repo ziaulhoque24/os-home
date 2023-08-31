@@ -14,7 +14,7 @@ import ReviewCard from "./ReviewCard";
 export default function Feedback() {
   return (
     <>
-      <div className='feedback-bg my-10'>
+      <div className='feedback-bg py-20'>
         <div className='container py-6'>
           <div className=' flex flex-col items-center gap-3'>
             <h1 className='text-3xl font-bold text-center animate-text'>

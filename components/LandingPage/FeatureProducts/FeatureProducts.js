@@ -1,5 +1,6 @@
 "use client";
 
+import SectionHeader from "@/components/CommonUi/SectionHeader";
 import FeatureProductCard from "./FeatureProductCard";
 
 export default function FeatureProducts() {
@@ -7,10 +8,11 @@ export default function FeatureProducts() {
     <>
       <div className='featureBg'>
         <div className='container  flex flex-col gap-5 py-10 md:-mt-0 rounded-xl'>
-          <div className='flex justify-center px-4 py-1'>
-            <span className='font-bold animate-text text-2xl'>Featured</span>
-          </div>
-          <div className='flex justify-center flex-col md:flex-row gap-10'>
+          <SectionHeader
+            title={"Featured"}
+            subtitle={"Our Most Popular Products"}
+          />
+          <div className='flex justify-center flex-col md:flex-row gap-10 my-5'>
             <FeatureProductCard />
             <FeatureProductCard />
             <FeatureProductCard />

@@ -4,15 +4,30 @@
 
 @layer components {
     .heroBg {
-        /* background-image: linear-gradient(250deg, rgba(255, 214, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%),
-            linear-gradient(182deg, #BAEEFF 0%, rgba(255, 255, 255, 0.00) 100%); */
-        background-image: url("../assets/images/netbackground.svg");
+
+        background-image: url("../assets/images/line-shape-1.png");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.5;
+        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
 
     }
 
+    .countSectionBg {
+        background-color: #F6F2ED;
+    }
+
     .featureBg {
-        background-image: url("../assets/images/netbackground.svg");
-        background-repeat: repeat;
+
+
+        background-color: transparent;
+        background-image: linear-gradient(180deg, #F2F7F9 0%, #F6F2ED 100%);
 
     }
 
@@ -25,7 +40,7 @@
     }
 
     .serviceSecondBg {
-        background: linear-gradient(45deg, rgba(203, 237, 238, 0.60) 0%, #F3F2F3 100%);
+        background-color: #F2F7F9;
 
     }
 

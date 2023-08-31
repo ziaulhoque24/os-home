@@ -11,7 +11,7 @@ export default function Service() {
     <>
       <div className='serviceBg' id='services'>
         <div className='backdrop-blur-xl serviceSecondBg py-16'>
-          <div className='container'>
+          <div className='container my-20'>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5'>
               <div className='flex flex-col gap-5 justify-center'>
                 <div>
